@@ -59,6 +59,7 @@ body{
     padding: 3px;
     align-self: center;
 }
+
 ul{
     list-style-type: none;
     display: flex;
@@ -71,6 +72,10 @@ a{
     font: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+a:hover{
+    color: #3882f6;
 }
 
 .info h1{
@@ -109,6 +114,9 @@ img{
     font-size: 18px;
     color: #e5e7eb;
 }
+.info button{
+    border: 3px solid #3882f6;
+}
 
 button{
     color:white;
@@ -116,6 +124,13 @@ button{
     border-radius: 10px;
     width: 80px;
     height: 30px;
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(.98);
+
 }
 
 .quote{
